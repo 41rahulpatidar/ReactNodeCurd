@@ -14,7 +14,6 @@ export default class Create extends Component {
     }
   }
   handleChange(event) {
-    console.log(event)
     const target = event.target;
     const name = target.name;
     const value = target.value;
